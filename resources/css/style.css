@@ -18,6 +18,16 @@ html {
   box-sizing: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figcaption {
+    opacity: 0.9;
+}
+
 header {
     position: fixed;
     z-index: 1;
@@ -38,6 +48,7 @@ nav {
 
 nav a {
     margin: 0.5em;
+    opacity: 0.9;
     text-decoration: underline;
     color: seashell;
 }
@@ -100,6 +111,7 @@ main {
 .mission-title-bar h2,
 .mission-title-bar h4 {
     padding: 0 0.75em;
+    
 }
 
 #totm {
@@ -111,10 +123,12 @@ main {
 
 #totm h2 {
     margin-top: 0.5rem;
+    
 }
 
 #totm h4 {
     margin: 0.75rem;
+    
 }
 
 .totm-images {
